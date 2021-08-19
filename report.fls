@@ -251,8 +251,10 @@ INPUT d:/texlive/2021/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 INPUT d:/texlive/2021/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
 INPUT d:/texlive/2021/texmf-dist/tex/latex/ctex/ctex-c5size.clo
 INPUT d:/texlive/2021/texmf-dist/tex/latex/ctex/ctex-c5size.clo
-INPUT d:/texlive/2021/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def
-INPUT d:/texlive/2021/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def
+INPUT d:/texlive/2021/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+INPUT d:/texlive/2021/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+INPUT d:/texlive/2021/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+INPUT c:/Windows/Fonts/msyh.ttc
 INPUT d:/texlive/2021/texmf-dist/tex/latex/ctex/config/ctex.cfg
 INPUT d:/texlive/2021/texmf-dist/tex/latex/ctex/config/ctex.cfg
 INPUT d:/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty

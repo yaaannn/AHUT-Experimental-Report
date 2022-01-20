@@ -11,7 +11,7 @@
 \usepackage{float}
 
 \numberwithin{figure}{section}		% 定义引用编号样式
-\graphicspath{{figures/}}	% 定义图片存放的路径
+\graphicspath{{picture/}}	% 定义图片存放的路径
 
 
 
@@ -57,6 +57,8 @@
 	commentstyle=\color{dkgreen},	% 注释样式
 	stringstyle=\color{mauve},		% 字符串样式
 	columns=flexible,
+	escapeinside=``,
+	language=C		% 默认语言模式
 	% breaklines=true,
 	% breakatwhitespace=true,
 	% tabsize=3,
@@ -183,7 +185,7 @@
 \section{代码排版}
 \subsection{SQL语句}
 
-\begin{lstlisting}[language=SQL,escapeinside=``]
+\begin{lstlisting}[language=SQL]
 --------------------------------------------------------
 --  DDL for Table T_STUDENT
 --------------------------------------------------------
@@ -209,22 +211,16 @@
 
 
 \subsection{C语言}
-\begin{lstlisting}[language=C,escapeinside=``]
-#include<stdio.h)
-int main() {
-	printf("Hello World");
-	return 0;
-}
-\end{lstlisting}
+% \begin{lstlisting}[language=C]
+% #include<stdio.h>
+% int main() {
+% 	printf("Hello World");
+% 	return 0;
+% }
+% \end{lstlisting}
+\lstinputlisting[language=JAVA]{code/main.c}
 \subsection{JAVA}
-\begin{lstlisting}[language=JAVA,escapeinside=``]
-	public class HelloWorld {
-		public static void main(String[] args){
-			System.out.println("Hello World");
-		}
-	}
-	
-\end{lstlisting}
+\lstinputlisting[language=JAVA]{code/HelloWorld.java}
 
 
 
